@@ -32,7 +32,7 @@
   text-transform: uppercase;
   letter-spacing: 4px;
   font-weight: 700;
-  margin: 0 0 0 166px;
+  margin: 17px 0 0 166px;
 }
 
 .u-section-1 .u-text-2 {
@@ -45,12 +45,16 @@
   white-space: nowrap;
   height: 32px;
   min-height: 16px;
-  width: 32px;
-  min-width: 16px;
+  width: 74px;
+  min-width: 42px;
   margin: 20px auto 0 166px;
 }
 
 .u-section-1 .u-icon-1 {
+  height: 100%;
+}
+
+.u-section-1 .u-icon-2 {
   height: 100%;
 }
 
@@ -68,7 +72,7 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 758px;
+    min-height: 849px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -100,11 +104,17 @@
   .u-section-1 .u-text-3 {
     margin-left: 46px;
   }
+
+  .u-section-1 .u-image-1 {
+    margin-top: -561px;
+    margin-bottom: 60px;
+    margin-left: 187px;
+  }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 634px;
+    min-height: 910px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -135,11 +145,18 @@
   .u-section-1 .u-text-3 {
     margin-left: 0;
   }
+
+  .u-section-1 .u-image-1 {
+    width: 246px;
+    height: 246px;
+    margin-top: -526px;
+    margin-left: 165px;
+  }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1088px;
+    min-height: 1364px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -151,36 +168,31 @@
     padding-right: 10px;
   }
 
-  .u-section-1 .u-layout-cell-2 {
-    min-height: 541px;
-  }
-
   .u-section-1 .u-container-layout-2 {
     padding-left: 10px;
     padding-right: 10px;
   }
 
   .u-section-1 .u-image-1 {
-    margin-left: 162px;
+    width: 268px;
+    height: 268px;
+    margin-top: -907px;
+    margin-left: auto;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 769px;
+    min-height: 959px;
   }
 
   .u-section-1 .u-layout-cell-1 {
     min-height: 207px;
   }
 
-  .u-section-1 .u-layout-cell-2 {
-    min-height: 577px;
-  }
-
   .u-section-1 .u-image-1 {
-    width: 340px;
-    height: 340px;
-    margin-left: 0;
+    width: 160px;
+    height: 160px;
+    margin-top: -903px;
   }
 }
