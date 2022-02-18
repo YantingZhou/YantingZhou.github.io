@@ -1396,14 +1396,16 @@
   padding: 20px 60px;
 }
 
-@media (max-width: 1199px) {
-  .u-section-22 .u-sheet-1 {
-    min-height: 919px;
-  }
-
+@media (max-width: 1399px) {
   .u-section-22 .u-layout-wrap-1 {
     margin-right: initial;
     margin-left: initial;
+  }
+}
+
+@media (max-width: 1199px) {
+  .u-section-22 .u-sheet-1 {
+    min-height: 919px;
   }
 
   .u-section-22 .u-image-1 {
@@ -2004,7 +2006,7 @@
   padding: 30px;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1399px) {
   .u-section-25 .u-layout-wrap-1 {
     margin-right: initial;
     margin-left: initial;

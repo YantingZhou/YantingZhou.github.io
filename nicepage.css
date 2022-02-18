@@ -21318,7 +21318,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto,sans-serif;
+  font-family: Montserrat,sans-serif;
 }
 /*end-variables font-family*/
 /*begin-variables color*/
@@ -21342,7 +21342,7 @@ h6 {
   font-family: 'Open Sans',sans-serif !important;
 }
 .u-custom-font.u-heading-font {
-  font-family: Roboto,sans-serif !important;
+  font-family: Montserrat,sans-serif !important;
 }
 /*end-variables font*/
 /*begin-variables colors*/
@@ -36921,6 +36921,7 @@ a.u-link.u-text-hover-grey-90:hover {
         --theme-sheet-width-md: 720px;
         --theme-sheet-width-sm: 540px;
         --theme-sheet-width-xs: 340px;
+        --theme-sheet-width-xxl: 1920px;
         
         
         
@@ -37226,7 +37227,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-text-1 {
   text-transform: none;
   font-weight: 700;
-  margin: -28px auto 0 calc(((100% - 1140px) / 2));
+  margin: -28px auto 34px calc(((100% - 1140px) / 2));
 }
 
 .u-header .u-btn-1 {
@@ -37234,11 +37235,6 @@ a.u-link.u-text-hover-grey-90:hover {
   padding: 0;
 }
 
-.u-header .u-line-1 {
-  transform-origin: left center 0px;
-  margin-top: 33px;
-  margin-bottom: 0;
-}
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     margin-right: calc(((100% - 940px) / 2));
@@ -37261,10 +37257,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 767px) {
-   .u-header {
-    min-height: 131px;
-  }
-
   .u-header .u-menu-1 {
     margin-right: calc(((100% - 540px) / 2));
   }
@@ -37272,17 +37264,10 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-text-1 {
     margin-top: 20px;
     margin-right: calc(((100% - 540px) / 2));
-  }
-
-  .u-header .u-line-1 {
-    margin-bottom: 1px;
+    margin-bottom: 34px;
   }
 }
 @media (max-width: 575px) {
-   .u-header {
-    min-height: 89px;
-  }
-
   .u-header .u-menu-1 {
     width: auto;
     margin-top: 28px;
@@ -37302,7 +37287,6 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-image-1 {
   width: 60px;
   height: 60px;
-  filter: brightness(0.8);
   background-image: url("images/IMG_0687.JPG");
   background-position: 50% 50%;
   margin: 20px auto 0 0;
@@ -37324,6 +37308,11 @@ a.u-link.u-text-hover-grey-90:hover {
   background-image: none;
   font-weight: 700;
   padding: 0;
+}
+@media (max-width: 1399px) {
+  .u-footer .u-image-1 {
+    filter: brightness(0.8);
+  }
 }
 @media (max-width: 1199px) {
   .u-footer .u-image-1 {
