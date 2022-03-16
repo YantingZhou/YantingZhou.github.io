@@ -3,7 +3,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 1200px;
+  min-height: 1553px;
 }
 
 .u-section-1 .u-text-1 {
@@ -23,7 +23,7 @@
   font-weight: 700;
   font-family: Montserrat, sans-serif;
   text-transform: none;
-  margin: 9px auto 0;
+  margin: 0 auto;
 }
 
 .u-section-1 .u-gallery-1 {
@@ -94,6 +94,10 @@
 }
 
 @media (max-width: 1399px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1200px;
+  }
+
   .u-section-1 .u-gallery-1 {
     height: 964px;
   }
@@ -124,7 +128,6 @@
 
   .u-section-1 .u-text-2 {
     width: auto;
-    margin-top: 0;
   }
 
   .u-section-1 .u-gallery-1 {
