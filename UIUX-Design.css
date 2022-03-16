@@ -10,25 +10,26 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 1.25rem;
-  margin: 64px auto 0;
+  margin: 60px auto 0;
 }
 
 .u-section-1 .u-icon-1 {
   width: 64px;
   height: 64px;
-  margin: 0 auto;
+  margin: 1px auto 0;
 }
 
 .u-section-1 .u-text-2 {
   font-weight: 700;
   font-family: Montserrat, sans-serif;
   text-transform: none;
-  margin: 0 auto;
+  font-size: 3.75rem;
+  margin: 1px auto 0;
 }
 
 .u-section-1 .u-gallery-1 {
   height: 1142px;
-  margin-top: 64px;
+  margin-top: 59px;
   margin-bottom: 60px;
   grid-gap: 17px 17px;
 }
@@ -108,10 +109,6 @@
     min-height: 1069px;
   }
 
-  .u-section-1 .u-text-1 {
-    margin-top: 60px;
-  }
-
   .u-section-1 .u-gallery-1 {
     height: 768px;
   }
@@ -163,6 +160,10 @@
 
   .u-section-1 .u-text-1 {
     font-size: 1rem;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 1.875rem;
   }
 
   .u-section-1 .u-gallery-1 {

@@ -3,7 +3,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 415px;
+  min-height: 340px;
 }
 
 .u-section-1 .u-text-1 {
@@ -14,14 +14,13 @@
 
 .u-section-1 .u-list-1 {
   margin-top: 74px;
-  margin-bottom: 60px;
+  margin-bottom: 0;
 }
 
 .u-section-1 .u-repeater-1 {
   grid-gap: 10px 10px;
   grid-template-columns: calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px) calc(25% - 7.5px);
   min-height: 84px;
-  grid-auto-columns: calc(25% - 7.5px);
 }
 
 .u-section-1 .u-list-item-1 {
@@ -131,7 +130,6 @@
   .u-section-1 .u-repeater-1 {
     grid-template-columns: calc(50% - 5px) calc(50% - 5px);
     min-height: 191px;
-    grid-auto-columns: calc(50% - 5px);
   }
 
   .u-section-1 .u-btn-1 {
@@ -159,10 +157,6 @@
   .u-section-1 .u-text-1 {
     width: auto;
     margin-right: 143px;
-  }
-
-  .u-section-1 .u-repeater-1 {
-    grid-auto-columns: calc(100% - 0px);
   }
 
   .u-section-1 .u-btn-1 {
@@ -199,7 +193,6 @@
 
   .u-section-1 .u-repeater-1 {
     grid-template-columns: 100%;
-    grid-auto-columns: 100%;
   }
 
   .u-section-1 .u-btn-1 {

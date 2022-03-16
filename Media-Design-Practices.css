@@ -7,10 +7,7 @@
 }
 
 .u-section-1 .u-text-1 {
-  font-weight: 400;
-  font-size: 1.125rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
   margin: 60px auto 0;
 }
 
@@ -63,6 +60,12 @@
 @media (max-width: 1399px) {
   .u-section-1 .u-sheet-1 {
     min-height: 1365px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-weight: normal;
+    font-size: 1.25rem;
+    letter-spacing: normal;
   }
 
   .u-section-1 .u-gallery-1 {
