@@ -57,8 +57,8 @@
 }
 
 .u-section-1 .u-image-4 {
-  background-image: url("images/bingmayong.GIF");
-  background-position: 42.41% 50%;
+  background-image: url("images/Space_Runner.gif");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-container-layout-4 {
@@ -335,7 +335,7 @@
 
 .u-section-2 .u-image-1 {
   min-height: 419px;
-  background-image: url("images/IMG_89991.jpg");
+  background-image: url("images/character.gif");
   background-position: 50% 50%;
 }
 
@@ -345,7 +345,7 @@
 
 .u-section-2 .u-image-2 {
   min-height: 419px;
-  background-image: url("images/IMG_9354.jpg");
+  background-image: url("images/rock.gif");
   background-position: 50% 50%;
 }
 
@@ -416,7 +416,7 @@
   }
 
   .u-section-2 .u-image-1 {
-    min-height: 267px;
+    min-height: 266px;
   }
 
   .u-section-2 .u-container-layout-1 {
@@ -425,7 +425,7 @@
   }
 
   .u-section-2 .u-image-2 {
-    min-height: 266px;
+    min-height: 267px;
   }
 
   .u-section-2 .u-container-layout-2 {
@@ -453,11 +453,11 @@
   }
 
   .u-section-2 .u-image-1 {
-    min-height: 154px;
+    min-height: 153px;
   }
 
   .u-section-2 .u-image-2 {
-    min-height: 153px;
+    min-height: 154px;
   }
 
   .u-section-2 .u-image-3 {
