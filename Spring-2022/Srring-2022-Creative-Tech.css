@@ -246,7 +246,7 @@
 }
 
 .u-section-2 .u-gallery-1 {
-  height: 1857px;
+  height: 2486px;
   margin-bottom: 60px;
   margin-top: 85px;
 }
@@ -254,6 +254,11 @@
 .u-section-2 .u-gallery-inner-1 {
   grid-gap: 30px 30px;
   grid-template-columns: auto auto;
+}
+
+.u-section-2 .u-gallery-item-1 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .u-section-2 .u-back-image-1 {
@@ -265,8 +270,13 @@
   padding: 20px;
 }
 
+.u-section-2 .u-gallery-item-2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .u-section-2 .u-back-image-2 {
-  object-position: 50% 64.22%;
+  object-position: 50% 53%;
 }
 
 .u-section-2 .u-over-slide-2 {
@@ -316,11 +326,39 @@
   padding: 20px;
 }
 
+.u-section-2 .u-gallery-item-6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .u-section-2 .u-back-image-6 {
-  object-position: 50% 53%;
+  object-position: 50% 64.22%;
 }
 
 .u-section-2 .u-over-slide-6 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-gallery-item-7 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-section-2 .u-back-image-7 {
+  object-position: 50% 53%;
+}
+
+.u-section-2 .u-over-slide-7 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-back-image-8 {
+  object-position: 50% 53%;
+}
+
+.u-section-2 .u-over-slide-8 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
   padding: 20px;
 }
@@ -331,7 +369,7 @@
   }
 
   .u-section-2 .u-gallery-1 {
-    height: 1103px;
+    height: 2098px;
   }
 
   .u-section-2 .u-gallery-inner-1 {
@@ -345,7 +383,7 @@
   }
 
   .u-section-2 .u-gallery-1 {
-    height: 909px;
+    height: 1671px;
   }
 }
 
@@ -355,7 +393,7 @@
   }
 
   .u-section-2 .u-gallery-1 {
-    height: 2785px;
+    height: 5596px;
   }
 
   .u-section-2 .u-gallery-inner-1 {
@@ -369,7 +407,7 @@
   }
 
   .u-section-2 .u-gallery-1 {
-    height: 2089px;
+    height: 4197px;
   }
 }
 
@@ -383,7 +421,7 @@
   }
 
   .u-section-2 .u-gallery-1 {
-    height: 1315px;
+    height: 2643px;
   }
 }li {
 	decoration: none;
