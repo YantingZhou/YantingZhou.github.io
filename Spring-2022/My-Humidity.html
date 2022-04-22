@@ -174,61 +174,51 @@
             <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/9C56RyNRwig?mute=0&amp;showinfo=0&amp;controls=0&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
           </div>
         </div>
-        <ul class="u-align-center u-text u-text-default u-text-2">
-          <li>Documentaion of the P5js + HTML coding progress.</li>
-        </ul>
+        <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-1">
+                <ul class="u-align-left u-text u-text-2">
+                  <li> The smallest dark blue dots mean the number of times water was drunk. Some slightly larger dots can be seen representing once drink in this minute.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-2">
+                <ul class="u-align-left u-text u-text-3">
+                  <li>The medium sized greenish circle represents the temperature in the cup. The larger the circle, the higher the temperature of the water in the cup at the moment, and vice versa.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-3">
+                <ul class="u-align-left u-text u-text-4">
+                  <li>The largest background circle represents the light environment. The brighter the color, the more intense the light is.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-    <section class="u-clearfix u-section-6" id="sec-0f9d">
+    <section class="u-clearfix u-section-6" id="sec-4569">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h4 class="u-align-center u-text u-text-default u-text-1">Arduino Code</h4>
-        <div class="u-clearfix u-custom-html u-expanded-width u-custom-html-1">
-          <style></style>
-          <pre>#include "config.h"
-#define LIGHT_PIN A2
-#define TILT_PIN A3
-#define TEMP_PIN 32
-AdafruitIO_Feed *lightsensor = io.feed("lightSensorFeed");
-AdafruitIO_Feed *tiltsensor = io.feed("tiltSensorFeed");
-AdafruitIO_Feed *tempsensor = io.feed("tempSensorFeed");
-int lightVal = 0;
-int tiltVal = 0;
-int tempVal = 0;
-float volts;
-float temp;
-void setup() {
-    Serial.begin(115200);
-    while(! Serial);
-    Serial.print("Connecting to Adafruit IO");
-    io.connect();
-    while(io.status() &lt; AIO_CONNECTED) {
-    Serial.print(".");
-    //digitalWrite(RED_LED,HIGH);
-    delay(500);
-    }
-    //digitalWrite(RED_LED,LOW);
-    Serial.println();
-    Serial.println(io.statusText());
-    //digitalWrite(GREEN_LED,HIGH);
-}
-void loop() {
-    io.run();
-    lightVal = analogRead(LIGHT_PIN);
-    Serial.print("Sending -&gt; lightsensor");
-    Serial.println(lightVal);
-    lightsensor-&gt;save(lightVal);
-    tiltVal = analogRead(TILT_PIN);
-    Serial.print("Sending -&gt; tiltsensor");
-    Serial.println(tiltVal);
-    tiltsensor-&gt;save(tiltVal);
-    tempVal = analogRead(TEMP_PIN);
-    volts = tempVal/1023.0;
-    temp = (volts - 0.5) * 100;
-    Serial.print("Sending -&gt; tempsensor");
-    Serial.println(tempVal);
-    tempsensor-&gt;save(tempVal);
-    delay(9000);
-}</pre>
+        <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
+                <div class="u-container-layout u-valign-top u-container-layout-1">
+                  <h2 class="u-text u-text-1">Insights gained from the project</h2>
+                  <div class="u-border-6 u-border-custom-color-3 u-line u-line-horizontal u-line-1"></div>
+                </div>
+              </div>
+              <div class="u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">
+                <div class="u-container-layout u-valign-top u-container-layout-2">
+                  <p class="u-text u-text-2"> The project transforms the data collected in real space into virtual images. I feel that the small device I designed is like a filter to extract signals from the noise of my life. In a sense, the body's movements in 3D space are translated into numbers, as if the self is abstracted.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
