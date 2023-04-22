@@ -249,7 +249,7 @@
 
 .u-section-2 .u-gallery-inner-1 {
   grid-gap: 30px 30px;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
 }
 
 .u-section-2 .u-back-image-1 {
@@ -261,26 +261,17 @@
   padding: 20px;
 }
 
-.u-section-2 .u-back-image-2 {
-  object-position: 50% 64.22%;
-}
-
-.u-section-2 .u-over-slide-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-  padding: 20px;
-}
-
 @media (max-width: 1399px) {
   .u-section-2 .u-sheet-1 {
     min-height: 749px;
   }
 
   .u-section-2 .u-gallery-1 {
-    height: 356px;
+    height: 517px;
   }
 
   .u-section-2 .u-gallery-inner-1 {
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(1, auto);
   }
 }
 
@@ -290,7 +281,7 @@
   }
 
   .u-section-2 .u-gallery-1 {
-    height: 294px;
+    height: 426px;
   }
 }
 
@@ -300,11 +291,7 @@
   }
 
   .u-section-2 .u-gallery-1 {
-    height: 901px;
-  }
-
-  .u-section-2 .u-gallery-inner-1 {
-    grid-template-columns: repeat(1, auto);
+    height: 326px;
   }
 }
 
@@ -314,7 +301,7 @@
   }
 
   .u-section-2 .u-gallery-1 {
-    height: 676px;
+    height: 245px;
   }
 }
 
@@ -324,7 +311,7 @@
   }
 
   .u-section-2 .u-gallery-1 {
-    height: 426px;
+    height: 154px;
   }
 }li {
 	decoration: none;
