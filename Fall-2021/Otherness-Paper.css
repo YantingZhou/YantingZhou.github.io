@@ -36,7 +36,13 @@
 }
 
 .u-section-1 .u-icon-1 {
-  font-size: 1.4em;
+  font-size: 1rem;
+}
+
+@media (max-width: 1399px) {
+  .u-section-1 .u-icon-1 {
+    font-size: 1.4em;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -105,8 +111,14 @@
 }
 
 .u-section-2 .u-text-2 {
-  font-size: 1.125rem;
+  font-size: 1rem;
   margin: 28px 0 60px;
+}
+
+@media (max-width: 1399px) {
+  .u-section-2 .u-text-2 {
+    font-size: 1.125rem;
+  }
 }
 
 @media (max-width: 1199px) {
