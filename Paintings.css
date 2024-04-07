@@ -537,7 +537,7 @@
 }
 
 .u-section-2 .u-back-image-4 {
-  width: 179px;
+  width: 375px;
 }
 
 .u-section-2 .u-over-slide-4 {
@@ -604,12 +604,6 @@
   left: auto;
   top: 122px;
   right: 10px;
-}
-
-@media (max-width: 1399px) {
-  .u-section-2 .u-back-image-4 {
-    width: 375px;
-  }
 }
 
 @media (max-width: 1199px) {

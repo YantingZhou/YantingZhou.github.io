@@ -267,7 +267,7 @@
 }
 
 .u-section-2 .u-text-2 {
-  margin: 20px 1px 0;
+  margin: 20px 50px 0 1px;
 }
 
 .u-section-2 .u-image-2 {
@@ -359,8 +359,8 @@
   min-height: 390px;
   background-image: url("../images/process1.png");
   transition-duration: 0.5s;
-  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   background-position: 50% 50%;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
 }
 
 .u-section-2 .u-container-layout-9 {
@@ -433,7 +433,7 @@
 
   .u-section-2 .u-text-2 {
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 6px;
   }
 
   .u-section-2 .u-image-2 {
@@ -508,6 +508,10 @@
   .u-section-2 .u-container-layout-2 {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-right: 0;
   }
 
   .u-section-2 .u-image-2 {
